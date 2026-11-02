@@ -1,0 +1,32 @@
+{
+  "name": "dbms-course-hub",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@codemirror/lang-sql": "^6.5.4",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/view": "^6.28.1",
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.6.7",
+    "codemirror": "^6.0.2",
+    "element-plus": "^2.6.0",
+    "mermaid": "^10.9.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6",
+    "vue-tsc": "^2.0.6"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}
